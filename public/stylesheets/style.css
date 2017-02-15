@@ -17,3 +17,24 @@ a {
   float:right;
   color: #00B7FF;
 }
+#smallcircleimg{
+  display: block;
+  margin: auto;
+  width: 33%;
+
+}
+#paragraph{
+
+  margin-top: 1em;
+  display: table-cell;
+  vertical-align: middle;
+  display: table;
+}
+#paragraph.p{
+  vertical-align: middle;
+  display: table-cell;
+}
+#projTitle{
+  text-align:center;
+
+}
