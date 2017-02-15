@@ -1,4 +1,22 @@
 <% include ./partials/header.ejs %>
-    <h1>Home</h1>
-    <p></p>
-<% include ./partials/footer.ejs %>
+<div class="container-fluid">
+    <div class="row">
+        <div id="name_photo_div" class="col-xs-6">
+            <h3>Kyle Duffy</h3>
+            <image class="img-rounded" src='/images/me.jpg' alt="A picture of My girlfriend Tabatha and I" height="375" width="375"></image>
+        </div>
+        <div class="col-xs-6" id="paragraph">
+            <div class="jumbotron">
+        <p >Welcome to my portforlio site. <br>
+            On here you can find:</p>
+            <ul class="list-group">
+                <li class="list-group-item-text">an <a href="/about">about me</a> section</li>
+                <li class="list-group-item-text">The <a href="/about">services</a> i am comfortable providing</li>
+                <li class="list-group-item-text">Current & past <a href="/about">projects</a></li>
+                <li class="list-group-item-text">and a way to <a href="/about">contact me!</a></li>
+                </ul> ,
+            </div>
+        </div>
+    </div>
+</div>
+<%include ./partials/footer.ejs%>
