@@ -1,11 +1,22 @@
+<!--Hone view
+Author's name: kyle Duffy
+web site name: Kyle Duffy's Portfolio
+file description: This file is the view that will be loaded at /. its the home page to my portfolio with a picture, my name and a quick description. -->
+
+<!--  includes the header at the top of this view  -->
 <% include ./partials/header.ejs %>
 <div class="container-fluid">
+
+    <!--    created a row to seperate 2 divs nicely.  -->
+
     <div class="row">
+        <!--    left side page title and photo -->
         <div id="name_photo_div" class="col-xs-6">
             <h3>Kyle Duffy</h3>
             <image class="img-rounded" src='/images/me.jpg' alt="A picture of My girlfriend Tabatha and I" height="375" width="375"></image>
         </div>
-        <div class="col-xs-6" id="paragraph">
+        <!--    and just a quick little paragraph with more description behind each of the links on the page.-->
+        <div id="paragraph" class="col-xs-6" >
             <div class="jumbotron">
         <p >Welcome to my portforlio site. <br>
             On here you can find:</p>
@@ -19,4 +30,5 @@
         </div>
     </div>
 </div>
+<!-- include the footer partial ejs file -->
 <%include ./partials/footer.ejs%>
